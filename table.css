@@ -1,0 +1,30 @@
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  h1{
+     color: darkblue;
+     text-align: center;
+  }
+  th, td {
+    text-align: left;
+    padding: 1rem;
+     margin: 1rem;
+  }
+  th{
+    color: rgb(19, 19, 20);
+  }
+  tr:nth-child(even){background-color: rgb(149, 205, 238)}
+table{
+  background-image: url(https://media.istockphoto.com/photos/red-rose-and-petals-on-marble-background-picture-id1182725055?s=612x612);
+}
+
+  
+    
+      
