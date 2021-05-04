@@ -1,0 +1,61 @@
+body,html{
+  height: 100%;
+  margin: 0;
+  font-size: 15px;
+  font-family: "Loto",sans-serif;
+  font-weight: 500;
+  color: #666;
+}
+.pimg1,.pimg2,.pimg3{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pimg1{
+  background-image: url(https://images.pexels.com/photos/3800570/pexels-photo-3800570.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  min-height:500px;
+}
+.pimg2{
+  background-image: url(https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  min-height:500px;
+}
+.pimg3{
+  background-image: url(https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  min-height:500px;
+}
+
+h2,p{
+  text-align: center;
+  color: hsla(212, 90%, 50%, 0.835);
+  font-size: bold;
+  font-family: fantasy;
+
+}
+.section{
+  text-align: center;
+  padding: 50px ;
+}
+.light{
+  background: color #f4f4f4;;
+  
+  color: #666;
+}
+.dark{
+  background: color #282828 ;
+  color: #ddd;
+}
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #f5cb5c;
+  font-size: 27px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+   font-display: bold;
+   font-size: 4em;
+   font-weight: bold;
+}
